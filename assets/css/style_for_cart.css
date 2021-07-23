@@ -1,0 +1,86 @@
+table, th,td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+    margin: auto 15px;
+}
+
+th{
+    line-height: 3;
+}
+
+.btn{
+    color: #fff;
+    background-color: rgb(85,160,7);
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+/* bảng sản phẩm */
+table.products td.code,
+table.products td.image,
+table.products td.name{
+    width: 20%;
+}
+
+table.products td.number,
+table.products td.price,
+table.products td.sum,
+table.products td.operation{
+    width: 10%;
+}
+
+
+
+td img{
+    width: 45%!important;
+    border: 1px solid rgba(189, 185, 185,0.5);
+    margin: 18px auto;
+    display: flex;
+    justify-content: center;
+}
+
+td.number input{
+    width: 30px;
+    height: 30px;
+}
+
+/* bảng tính tổng */
+
+table.sum div.sum{
+    padding-left: 60px;
+    padding-right: 600px;
+}
+
+table.sum div.btn{
+    display: inline-block;  
+    padding: 8px 16px;
+    margin: 5px;
+}
+
+td.sum div.sum, div.btn-contain{
+    display: inline-block;
+}
+
+/* form */
+.form-input input{
+    width: 120%;
+    height: 35px;
+}
+
+.form-input h2{
+    margin-top: 40px!important;
+    margin-bottom: 20px!important;
+}
+
+.form-input .btn{
+    width: 30%;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

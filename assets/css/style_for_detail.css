@@ -1,0 +1,98 @@
+/* sidebar */
+.content .sidebar{
+    float: right!important;
+}
+
+.content .sidebar i{
+    font-size: 22px!important;
+    padding-right: 6px;
+}
+
+.sidebar div.info{
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.sidebar div p{
+    padding: 0px 5px;
+}
+
+.sidebar div.img{
+    background: url('../img/background/sidebar.png') bottom center / cover no-repeat;    
+    height: 610px;
+    margin-top: 60px;
+    padding: 15px;
+}
+
+.sidebar a.buy{
+    background-color: #fff;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+/* style for 03 */
+.content #rate i{
+    color: yellow;
+}
+.content div#thumb-img{
+    width: 55%;
+}
+
+.content #head{
+    min-height: 500px;
+}
+
+.content .col-66>div{
+    margin-bottom: 20px!important;
+}
+
+.content div#thumb-img img{
+    border: 1.5px solid #ccc;
+}
+
+.content div#info{
+    width: 45%;
+}
+
+div#info #rate{
+    margin-bottom: 12px;
+}
+
+div#info p#descshort{
+    border: 2px dashed #ccc;
+    padding: 6px;
+    margin-top: 20px!important;
+    margin-bottom: 40px!important;           
+}
+
+div#info a{
+    background-color: rgb(128,180,53);
+    padding: 10px;
+}
+
+div.detail-info{
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+#detail_info p{
+    line-height: 2!important;
+    text-align: justify!important;
+}
+
+#detail_info img{
+    width: 70%;
+    padding: 15px 0px;
+}
+
+/* style for 06 */
+.content .description img{
+    width: 600px;
+    margin: 15px auto;
+}
+
+.content .description p{
+    text-align:justify;
+    line-height: 2;
+}
+

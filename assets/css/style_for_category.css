@@ -1,0 +1,51 @@
+.category-02 .row{
+    margin-top: 20px!important;
+}
+
+.content .next-page{
+    display: inline-block;
+    background-color: rgb(198,8,8);
+    padding: 5px 14px;
+}
+
+.content .contain-filter div{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 8px;
+}
+
+.content .contain-filter div:nth-child(1){
+    opacity: 0.6;
+    margin-right: -4px;  
+}
+
+.content .contain-filter div:nth-child(2){
+    background-color: #ccc;
+}
+
+.content .contain-filter i{
+    padding: 2px;
+    cursor: pointer;
+}
+
+.category-02 ul li img{
+    width: 100%;
+    height: 320px;
+    border: 1px solid #ccc;
+}
+
+.category-02 ul li div{
+    border: 1px solid #ccc;
+}
+
+.category-02 ul li div.detail{
+    padding-bottom: 8px;
+}
+
+.category-02 .detail a.add{
+    color: rgb(174,47,47)!important;
+}
+
+
+
+

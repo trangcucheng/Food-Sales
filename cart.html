@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/global.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/style_for_cart.css">
+        <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <title>Cart</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <div id="logo" class="float-left">
+                    <h1 class="white-text">FreshFood</h1>
+                </div>
+
+                <ul class="nav">
+                    <li class="float-left"><a href="" class="text-uppercase white-text">trang chủ</a></li>
+                    <li class="float-left"><a href="" class="text-uppercase white-text">thịt tươi</a></li>
+                    <li class="float-left"><a href="" class="text-uppercase white-text">rau sạch</a></li>
+                    <li class="float-left"><a href="" class="text-uppercase white-text">quả ngọt</a></li>
+                    <li class="float-left"><a href="" class="text-uppercase white-text">cẩm nang</a></li>
+                    <li class="float-left"><a href="" class="text-uppercase white-text">liên hệ</a></li>
+                    <li class="float-left"><a href="" class="text-uppercase white-text">thanh toán</a></li>
+                    <li class="float-left"> 
+                        <div class="search">
+                            <i class="ti-search white-text"></i>
+                        </div>
+                    </li>
+                    <li class="float-left">
+                        <div class="cart">
+                            <i class="ti-shopping-cart white-text">
+                                <div class="number white-text">3</div>
+                            </i>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </header>
+
+            <div class="slider">
+                <img src="assets/img/breadcrumbs/breadcrumb.png" alt="Slider!">
+            </div>
+
+            <div class="content">
+                <div class="row">
+                    <table class="font-13 products">
+                        <!-- hàng tiêu đề của các cột -->
+                        <tr>
+                            <th class="bold-text text-align-center">Mã sản phẩm</th>
+                            <th class="bold-text text-align-center">Ảnh</th>
+                            <th class="bold-text text-align-center">Tên sản phẩm</th>
+                            <th class="bold-text text-align-center">Số lượng</th>
+                            <th class="bold-text text-align-center">Giá</th>
+                            <th class="bold-text text-align-center">Tổng</th>
+                            <th class="bold-text text-align-center">Thao tác</th>
+                        </tr>
+
+                        <!-- sản phẩm thứ nhất -->
+                        <tr>
+                            <td class="code">
+                                <div class="text-align-center">Fre0001</div>
+                            </td>
+                            <td class="image">
+                                <a href="">
+                                    <img src="./assets/img/new-profducts/lettuce.png" alt="">
+                                </a>
+                            </td>
+                            <td class="name">
+                                <a href=""><div class="text-align-center">Cá hồi Bắc Âu</div></a>
+                            </td>
+                            <td class="number text-align-center">
+                                <div>
+                                    <input type="number" id="number-products" placeholder="1" class="text-align-center"> <span> Kg</span>
+                                </div>
+                            </td>
+                            <td class="price">
+                                <div class="text-align-center">250.000đ</div>
+                            </td>
+                            <td class="sum">
+                                <div class="text-align-center">250.000đ</div>
+                            </td>
+                            <td class="operation">
+                                <a href=""><div class="clear text-align-center">Xóa</div></a>
+                            </td>
+                        </tr>
+
+                        <!-- sản phẩm thứ hai -->
+                        <tr>
+                            <td class="code">
+                                <div class="text-align-center">Fre0001</div>
+                            </td>
+                            <td class="image">
+                                <a href="">
+                                    <img src="./assets/img/new-profducts/lettuce.png" alt="">
+                                </a>
+                            </td>
+                            <td class="name">
+                                <a href=""><div class="text-align-center">Cá hồi Bắc Âu</div></a>
+                            </td>
+                            <td class="number text-align-center">
+                                <div>
+                                    <input type="number" id="number-products" placeholder="1" class="text-align-center"> <span> Kg</span>
+                                </div>
+                            </td>
+                            <td class="price">
+                                <div class="text-align-center">250.000đ</div>
+                            </td>
+                            <td class="sum">
+                                <div class="text-align-center">250.000đ</div>
+                            </td>
+                            <td class="operation">
+                                <a href=""><div class="clear text-align-center">Xóa</div></a>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!-- bảng tính tổng -->
+                    
+                    <table class="font-13 sum">
+                        <tr>
+                            <td class="sum">
+                                <div class="bold-text sum">Tổng: 500.000đ</div>
+                                <div class="btn-contain">
+                                    <div class="btn">Cập nhật giỏ hàng</div>
+                                    <div class="btn">Xóa giỏ hàng</div>
+                                    <div class="btn">Đặt mua & thanh toán</div>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </table>
+    
+                </div>
+
+                <!-- form --> 
+                <div class="row form-input">
+                    <div class="col font-13">
+                        <h2>Đặt hàng và thanh toán</h2>
+                        <form action="">
+                            <p>Email:</p>
+                            <input type="email" name="email" id="">
+                            <p>Họ và tên:</p>
+                            <input type="text" name="full-name" id="">
+                            <p>Số điện thoại:</p>
+                            <input type="tel" name="phone-number" id="">
+                            <p>Địa chỉ:</p>
+                            <input type="text" name="address" id="">
+                            <div class="btn text-align-center">Áp dụng</div>
+                        </form>
+    
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            
+            </div>
+                    
+                          
+            <footer>
+                <div class="content">
+                    <div class="row white-text">
+                        <div class="col col-3 ">
+                            <h2>Trụ sở chính:</h2>
+                            <p class="text-justify">Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.</p>
+                            <p>Điện thoại: 04.3311.3998</p>
+                            <p>Fax: 04.3311.3996 </p>
+                        </div>
+        
+                        <div class="col col-3">
+                            <h2>Chi nhánh Đà Nẵng:</h2>
+                            <p class="text-justify">Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.</p>
+                            <p>Điện thoại: 04.3311.3998</p>
+                            <p>Fax: 04.3311.3996 </p>
+                        </div>
+        
+                        <div class="col col-3">
+                            <h2>Chi nhánh Hồ Chí Minh:</h2>
+                            <p class="text-justify">Số 6A8A, Thanh Xuân Bắc, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội.</p>
+                            <p>Điện thoại: 04.3311.3998</p>
+                            <p>Fax: 04.3311.3996 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <div class="copyright text-align-center"><p>Copyright &#169; - All rights reservered</p></div>
+
+            
+        </div>
+
+    </body>
+</html>
